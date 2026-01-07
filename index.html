@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="tema2.html">
+    <link rel="stylesheet" href="tema3.html">
+    <link rel="stylesheet" href="tema4.html">
+    <link rel="stylesheet" href="tema5.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+</head>
+<body>
+    <head>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Forside </a></li>
+                <li><a href="#grids_1_4"> Kompetencer </a></li>
+                <li><a href="#box"> Kontakt </a></li>
+            </ul>
+        </nav>
+    </head>
+    <main>
+        <img class="portfolio-image" src="photos/redesign.webp" alt="Portfolio Billede">
+        <h1 class="hovedoverskrift"> Portfolio </h1>
+
+        <section class="introduction">
+            <div class="intromig">
+            <h2> Hvem er jeg? </h2>
+            <h1> Allysa Navarro </h1>
+            <p> Velkommen til min portfolio!
+            Jeg er studerende på Multimediedesigner-uddannelsen og dette er min portfolio fra 1. semester. Her har jeg lært grundlæggende webteknologier, UI/UX design og indholdsproduktion.</p>
+            <p> Udover det, så elsker jeg og tilbringe tid med venner og familie og især mine to katte. Dog kan jeg også lide og være alene og sidde på mit værelse og se på tiktok i 2-3 timer.
+          </p>
+            </div>
+            <div class="introbilledet">
+            <img class src="photos/mig.webp" alt="billedet af mig">
+            </div>
+        </section>
+
+        <section id="grids_1_4">
+            <div class="kompetencer">
+                <h2> Hvad har jeg lært </h2>
+                <h1> Mine kompetencer </h1>
+            </div>
+            <a href="tema2.html" class="bokse" >
+                <h3> Grundlæggende web </h3>
+                <h4> Tema 2</h4>
+                <p> HTML & CSS opsætning af websider, tekst og billeder </p>
+            </a>
+            <a href="tema3.html" class="bokse">
+                <h3> UI/UX Design </h3>
+                <h4> Tema 3</h4>
+                <p> Figma, brugergrænseflader, grafik og billedbehandling </p>
+            </a>
+            <a href="tema4.html" class="bokse">
+                <h3> Brugergrænseflader </h3>
+                <h4> Tema 4</h4>
+                <p> UI-udvikling, brugertests, tilgængelighed og bæredygtighed </p>
+            </a>
+            <a href="tema5.html" class="bokse">
+                <h3> Website redesign </h3>
+                <h4> Tema 5</h4>
+                <p> UI-udvikling, brugertests, tilgængelighed og bæredygtighed </p>
+            </a>
+        </section>
+
+        <div id="box">
+    <div id="main-container">
+      <div>
+        <h1 id="page-title">Kontakt mig</h1>
+        <p id="page-description"> Har du spørgsmål om mine projekter eller vil du samarbejde? Skriv til mig, så vender jeg tilbage hurtigst muligt. </p>
+      </div>
+
+      <form id="contact-form">
+        <div id="form-container">
+          <div>
+            <label for="navn"> Dit navn </label>
+            <input type="text" id="navn" name="navn" required placeholder="Dit fulde navn">
+          </div>
+
+          <div>
+            <label for="email"> Email </label>
+            <input type="email" id="email" name="email" required placeholder="Email">
+          </div>
+
+          <div>
+            <label for="telefon"> Telefon </label>
+            <input type="tel" id="telefon" name="telefon" placeholder="+45 12 34 56 78">
+          </div>
+
+          <div>
+            <label for="besked"> Besked </label>
+            <textarea id="besked" name="besked" required rows="5" placeholder="Skriv din besked her..."></textarea>
+          </div>
+
+          <button type="submit" id="submit-btn">Send Besked</button>
+
+          <div id="message-container" class="hidden"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+    </main>
+
+</body>
+</html>

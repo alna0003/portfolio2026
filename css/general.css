@@ -1,0 +1,254 @@
+body {
+            box-sizing: border-box;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #280029;
+            color: rgba(255, 255, 255, 1);
+            line-height: 1.6;
+        }
+
+        /* ------------------------------------------ */
+
+        /* Navigation */
+        nav {
+            background-color: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: right;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: rgba(255, 255, 255, 1);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* ------------------------------------------ */
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Side titel */
+        main > h1 {
+            font-size: 3.5rem;
+            text-align: left;
+            margin-top: 0rem;
+            color: rgba(116, 57, 93, 1);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            font-family: 'Marko One', cursive;
+        }
+
+        main > h2 {
+            font-size: 2rem;
+            text-align: left;
+            margin-bottom: 0rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+        }
+
+        /* ------------------------------------------ */
+
+        /* HTML Image */
+        .html, .uiux, .foto, .virksomhedsite {
+            width: auto;
+            max-width: auto;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            border: 3px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* ------------------------------------------ */
+
+        /* Sections */
+        section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 3rem;
+            margin: 3rem 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        section h1 {
+            font-family: 'Abel', sans-serif;
+            font-size: 4.5rem;
+            color: rgb(227, 226, 227);
+            margin-bottom: 0rem;
+            margin-top: 0rem;
+        }
+
+        section h2 {
+            font-family: 'Marko One', cursive;
+            font-size: 2rem;
+            color: rgba(116, 57, 93, 1);
+            margin-bottom: 0rem;
+            margin-top: 0rem;
+        }
+
+        section h3 {
+            font-family: 'Abel', sans-serif;
+            font-size: rem;
+            color: rgb(231, 226, 229);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        section p {
+            font-family: 'Abel', sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 1.5rem;
+        }
+
+        section ul {
+            list-style: none;
+            margin-left: 1rem;
+        }
+
+        section ul li {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin: 1rem 0;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+        section ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: rgba(116, 57, 93, 1);
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+        
+
+        /* Billederne (opgaverne) i min hver tema  */
+        .mobilesite, .emnesite, .dragesvg, .karlslundegym {
+             max-width: 100%; 
+             height: auto; 
+             width: auto; 
+             margin: 10px auto; 
+             display: block;
+}
+
+ /* ------------------------------------------ */
+
+        /* Button */
+        #figmaButton2, #figmaButton3, #figmaButton4, #figmaButton5, #trelloButton5, #dragesitet, #Studiestartsprøve1, #emnesite1, #kifsite, #hjem {
+            padding: 1rem 3rem;
+            background: rgba(255, 255, 255, 1);
+            color: #280029;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 1rem;
+        }
+
+        #figmaButton2:hover, #figmaButton3:hover, #figmaButton4:hover, #figmaButton5:hover, #trelloButton5:hover, #dragesitet:hover, #Studiestartsprøve1:hover, #emnesite1:hover, #kifsite:hover, #hjem:hover {
+            background: rgba(116, 57, 93, 1);
+            color: #fff;
+            transform: translateY(-3px);
+        }
+
+      /* ----------------------------------------  */
+      
+      /* Tilbage knappen */
+      .center {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+      }
+      
+      #hjem {
+        text-decoration: none;
+      }
+      /* ----------------------------------------  */
+        /* Footer */
+        footer {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1rem;
+        }
+
+
+/* -------------------------------------------- */
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            main > h1 {
+                font-size: 2.5rem;
+            }
+
+            main > h2 {
+                font-size: 1.5rem;
+            }
+
+            section {
+                padding: 2rem;
+            }
+
+            section h2 {
+                font-size: 2rem;
+            }
+
+            section h3 {
+                font-size: 1.5rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+
+            nav a {
+                padding: 0.5rem 1rem;
+                font-size: 0.9rem;
+            }
+        }
