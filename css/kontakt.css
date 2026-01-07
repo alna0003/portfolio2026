@@ -1,0 +1,22 @@
+/* Input felter og textarea */
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 14px 16px;
+      font-size: 16px;
+      font-family: inherit;
+      border: 2px solid #cbd5e1;
+      border-radius: 10px;
+      background-color: #0505062a;
+      transition: all 0.3s ease;
+      color: #cfd7e3;
+    }
+
+   
+    
+    form:has(:invalid) textarea, 
+    input[type="text"]:invalid,
+    input[type="email"]:invalid {    
+      border-color: #e11d48;
+    }       

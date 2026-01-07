@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="tema4.html">
     <link rel="stylesheet" href="tema5.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/kontakt.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,7 @@
     <title>portfolio</title>
 </head>
 <body>
-    <head>
+    <header>
         <nav>
             <ul>
                 <li><a href="index.html"> Forside </a></li>
@@ -26,9 +27,9 @@
                 <li><a href="#box"> Kontakt </a></li>
             </ul>
         </nav>
-    </head>
+    </header>
     <main>
-        <img class="portfolio-image" src="photos/redesign.webp" alt="Portfolio Billede">
+        <img class="portfolio-image" src="photos/portfolio.webp" alt="Portfolio Billede">
         <h1 class="hovedoverskrift"> Portfolio </h1>
 
         <section class="introduction">
@@ -36,9 +37,8 @@
             <h2> Hvem er jeg? </h2>
             <h1> Allysa Navarro </h1>
             <p> Velkommen til min portfolio!
-            Jeg er studerende på Multimediedesigner-uddannelsen og dette er min portfolio fra 1. semester. Her har jeg lært grundlæggende webteknologier, UI/UX design og indholdsproduktion.</p>
-            <p> Udover det, så elsker jeg og tilbringe tid med venner og familie og især mine to katte. Dog kan jeg også lide og være alene og sidde på mit værelse og se på tiktok i 2-3 timer.
-          </p>
+            Jeg er studerende på Multimediedesigner-uddannelsen og dette er min portfolio fra 1. semester. Her har jeg lært grundlæggende webteknologier, UI/UX design og indholdsproduktion.</p> 
+            <p> Udover det, så er jeg en smilende pige der elsker tilbringe tid med venner og familie og især med mine to børn (katte). Jeg elsker og være ude og for at skabe gode minder. Dog elsker jeg også at være alene og rotten i min seng mens jeg ser tiktok. Jeg kan være ret genert i starten især når jeg møder nye folk men når jeg først er kommet ind i en samtale så kan jeg være meget udadvendt og energisk. Jeg elsker og høre musik, jeg kan lytte til musik i timevis uden og stoppe og nogle gange plejer jeg og høre musik når jeg skal sove fordi det hjælper mig med og slappe af. Alt i alt er jeg en person som prøver at være den bedste version af mig selv hver dag.</p>
             </div>
             <div class="introbilledet">
             <img class src="photos/mig.webp" alt="billedet af mig">
@@ -47,8 +47,8 @@
 
         <section id="grids_1_4">
             <div class="kompetencer">
-                <h2> Hvad har jeg lært </h2>
-                <h1> Mine kompetencer </h1>
+                <h3> Hvad har jeg lært </h3>
+                <h4> Mine kompetencer </h4>
             </div>
             <a href="tema2.html" class="bokse" >
                 <h3> Grundlæggende web </h3>
@@ -85,17 +85,10 @@
             <label for="navn"> Dit navn </label>
             <input type="text" id="navn" name="navn" required placeholder="Dit fulde navn">
           </div>
-
           <div>
             <label for="email"> Email </label>
             <input type="email" id="email" name="email" required placeholder="Email">
           </div>
-
-          <div>
-            <label for="telefon"> Telefon </label>
-            <input type="tel" id="telefon" name="telefon" placeholder="+45 12 34 56 78">
-          </div>
-
           <div>
             <label for="besked"> Besked </label>
             <textarea id="besked" name="besked" required rows="5" placeholder="Skriv din besked her..."></textarea>
@@ -109,6 +102,9 @@
     </div>
   </div>
     </main>
-
+    <footer>
+        <p>© 2024 My Portfolio</p>
+    </footer>
+    <script src="js/kontakt.js"></script>
 </body>
 </html>
